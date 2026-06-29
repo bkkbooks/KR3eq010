@@ -1,0 +1,113 @@
+canonical_identifier: bkk:krp/KR3eq010/v1
+canonical_location: https://kanripo.org/bkk/KR3eq010/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 客塵醫話
+  identifiers:
+    krp: KR3eq010
+  tags:
+    kr-categories: KR3eq
+    tls-dates: dat04210
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eq010.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3eq010_000.yaml, hash: 'sha256:a9bf53968ebc8df731e4cc70f16a8eca4730c5cad84a7f6394eca87e6e4597fc'}
+  - {seq: 1, filename: KR3eq010_001.yaml, hash: 'sha256:79c2736c08da1c194931db291c45f5f3dc08f15e7ffd127ff400163c37394272'}
+  - {seq: 2, filename: KR3eq010_002.yaml, hash: 'sha256:2e75fc397eb14d5b6cca252749e606673cff7ca13e0ad5ea939c2b464d2e05a6'}
+  - {seq: 3, filename: KR3eq010_003.yaml, hash: 'sha256:0789a0193de7435a3afca784c630d85b42e981b60f5ff90207ee8ea961198aca'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eq010_000.markers.yaml, hash: 'sha256:aa20ceb298909f9ebd48bb03905c6ff988a13dd9ebb7c876841bed1f155f552a'}
+  - {seq: 1, role: markers, filename: assets/KR3eq010_001.markers.yaml, hash: 'sha256:37e8eb4885c474d7088f9f3993e28700a5cdc5022c0c2818d487de0e1f63f448'}
+  - {seq: 2, role: markers, filename: assets/KR3eq010_002.markers.yaml, hash: 'sha256:e5ff5307e0c5c2a94d154e1c4dc270b48a9814ea1f239e3cf638bfc7c33f5b46'}
+  - {seq: 3, role: markers, filename: assets/KR3eq010_003.markers.yaml, hash: 'sha256:3eee6bd7cacb7161d070749392b4f4a5bbbfea1ef642194358769e44b848e5b5'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eq010_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 358
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3eq010_jc_001-d3.h1s1
+    span:
+    - body
+    - 0
+    - 3934
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3eq010_jc_001-d3d2
+    span:
+    - body
+    - 2
+    - 3934
+  label: 雜症述略
+  type: section
+  level: 2
+- ref:
+    seq: 2
+    marker_id: KR3eq010_jc_002-d4.h1s1
+    span:
+    - body
+    - 0
+    - 3784
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3eq010_jc_002-d4d2
+    span:
+    - body
+    - 2
+    - 3784
+  label: 婦科述略
+  type: section
+  level: 2
+- ref:
+    seq: 2
+    marker_id: KR3eq010_jc_002-d4.d2d12
+    span:
+    - body
+    - 1425
+    - 3784
+  label: 胎前論治
+  type: section
+  level: 3
+- ref:
+    seq: 3
+    marker_id: KR3eq010_jc_003-d5.h1s1
+    span:
+    - body
+    - 0
+    - 5039
+  label: 卷三
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3eq010_jc_003-d5d2
+    span:
+    - body
+    - 2
+    - 5039
+  label: 產後述略
+  type: section
+  level: 2
+hash: sha256:d17132105b8108bbab706fb8007c834067b8ad356eecf14030b4e0d3acc828da
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
